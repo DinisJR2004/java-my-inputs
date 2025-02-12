@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Ler** é uma classe Java utilitária que fornece métodos para facilitar a leitura de diferentes tipos de dados a partir da entrada padrão (teclado). Essa classe evita a necessidade de tratar exceções repetitivamente ao ler entradas do usuário.
+O **Ler** é uma classe Java utilitária que fornece métodos para facilitar a leitura de diferentes tipos de dados a partir da entrada padrão (teclado). Essa classe evita a necessidade de tratar exceções repetitivamente ao ler entradas do utilizador.
 
 ## Funcionalidades
 
@@ -16,16 +16,16 @@ O **Ler** é uma classe Java utilitária que fornece métodos para facilitar a l
 - Leitura de **char**
 - Leitura de **boolean**
 
-Todos os métodos lidam com exceções e garantem que o usuário insira um valor válido.
+Todos os métodos lidam com exceções e garantem que o utilizador insira um valor válido.
 
 ## Como Usar
 
-1. **Baixe ou copie a classe **``** para seu projeto.**
+1. **Baixe ou copie a classe **``** para o seu projeto.**
 2. **Importe a classe **``** no seu código:**
    ```java
    import myinputs.Ler;
    ```
-3. **Use os métodos para capturar entrada do usuário:**
+3. **Use os métodos para capturar a entrada do utilizador:**
    ```java
    public class Main {
        public static void main(String[] args) {
@@ -61,8 +61,8 @@ public class ExemploUso {
 
 ## Observações
 
-- Os métodos utilizam `BufferedReader` para capturar a entrada do usuário.
-- Cada método repete a solicitação até que o usuário forneça um valor válido.
+- Os métodos utilizam `BufferedReader` para capturar a entrada do utilizador.
+- Cada método repete a solicitação até que o utilizador forneça um valor válido.
 - O método `umChar()` retorna apenas o primeiro caractere da entrada.
 
 ## Licença
